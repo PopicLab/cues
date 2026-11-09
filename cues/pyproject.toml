@@ -1,0 +1,11 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11>=3.0"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "pycues"
+version = "0.0.1"
+description = "Python bindings for the C++ module cues"
+authors = [{name = "Victoria Popic"}]
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-or-later" }
